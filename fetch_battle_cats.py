@@ -8,7 +8,7 @@ def fetch_data():
         data = response.json()
         print("Battle Cats Enemies")
         for item in data:
-            print(f"ID: {item['id']}, Naam: {item['name']}, Type: {item['type']}, Health: {item['health']}, Attack: {item['attack']}")
+            print(f"ID: {item['id']}, Naam: {item['name']}, Type: {item['type']}, Health: {item['health']}, Damage: {item['damage']}, Range: {item['range']}, Speed: {item['speed']}, Target: {item['target']}")
     else:
         print("❌ Fout bij ophalen van data")
 
