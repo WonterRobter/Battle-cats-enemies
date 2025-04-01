@@ -259,59 +259,13 @@
             "range": 200,
             "speed": 7,
             "id": 26
-        },
-        {
-            "name": "Camelle",
-            "type": "Normal ",
-            "health": 100000,
-            "damage": 2637,
-            "target": "Area",
-            "range": 550,
-            "speed": 8,
-            "id": 27
-        },
-        {
-            "name": "Duche",
-            "type": "Normal ",
-            "health": 40000,
-            "damage": 500,
-            "target": "Area",
-            "range": 120,
-            "speed": 10,
-            "id": 28
-        },
-        {
-            "name": "Owlbrow",
-            "type": "Floating ",
-            "health": 10000,
-            "damage": 3000,
-            "target": "Area",
-            "range": 340,
-            "speed": 14,
-            "id": 29
-        },
-        {
-            "name": "Bore",
-            "type": "Red ",
-            "health": 400000,
-            "damage": 4837,
-            "target": "Area",
-            "range": 130,
-            "speed": 14,
-            "id": 30
         }
     ],
     "enemy_types": [
       { "id": 1, "name": "Normal" },
       { "id": 2, "name": "Red" },
       { "id": 3, "name": "Floating" },
-      { "id": 4, "name": "Black" },
-      { "id": 5, "name": "Metal" },
-      { "id": 6, "name": "Angel" },
-      { "id": 7, "name": "Alien" },
-      { "id": 8, "name": "Zombie" },
-      { "id": 9, "name": "Relic" },
-      { "id": 10, "name": "Aku" }
+      { "id": 4, "name": "Black" }
     ]
   }
   
