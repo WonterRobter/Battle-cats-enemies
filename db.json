@@ -1,0 +1,15 @@
+{
+    "enemies": [
+      { "id": 1, "name": "Doge", "type": "Normal", "health": 1000, "attack": 50 },
+      { "id": 2, "name": "Snache", "type": "Red", "health": 1200, "attack": 60 },
+      { "id": 3, "name": "Le'boin", "type": "Floating", "health": 5000, "attack": 200 },
+      { "id": 4, "name": "Teacher Bun Bun", "type": "Floating", "health": 120000, "attack": 10000 },
+      { "id": 5, "name": "R. Ost", "type": "Red", "health": 90000, "attack": 5000 }
+    ],
+    "enemy_types": [
+      { "id": 1, "name": "Normal" },
+      { "id": 2, "name": "Red" },
+      { "id": 3, "name": "Floating" }
+    ]
+  }
+  
