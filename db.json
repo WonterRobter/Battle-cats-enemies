@@ -299,36 +299,6 @@
             "range": 130,
             "speed": 14,
             "id": 30
-        },
-        {
-            "name": "THE SLOTH",
-            "type": "Normal ",
-            "health": 300000,
-            "damage": 8000,
-            "target": "Area",
-            "range": 450,
-            "speed": 2,
-            "id": 31
-        },
-        {
-            "name": "Rain D.",
-            "type": "Normal ",
-            "health": 90000,
-            "damage": 4547,
-            "target": "Area",
-            "range": 300,
-            "speed": 25,
-            "id": 32
-        },
-        {
-            "name": "Dagshund",
-            "type": "Normal ",
-            "health": 60000,
-            "damage": 3000,
-            "target": "Area",
-            "range": 180,
-            "speed": 10,
-            "id": 33
         }
     ],
     "enemy_types": [
