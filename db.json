@@ -379,66 +379,6 @@
             "range": 160,
             "speed": 4,
             "id": 38
-        },
-        {
-            "name": "St. Pigge the 2nd",
-            "type": "Red ",
-            "health": 40000,
-            "damage": 400,
-            "target": "Area",
-            "range": 160,
-            "speed": 8,
-            "id": 39
-        },
-        {
-            "name": "J.K Bun Bun",
-            "type": "Red Floating ",
-            "health": 400000,
-            "damage": 9287,
-            "target": "Area",
-            "range": 200,
-            "speed": 23,
-            "id": 40
-        },
-        {
-            "name": "Bun Bun Black",
-            "type": "Floating Black ",
-            "health": 777777,
-            "damage": 5997,
-            "target": "Area",
-            "range": 200,
-            "speed": 16,
-            "id": 41
-        },
-        {
-            "name": "Gory Black",
-            "type": "Black ",
-            "health": 40000,
-            "damage": 3123,
-            "target": "Area",
-            "range": 155,
-            "speed": 30,
-            "id": 42
-        },
-        {
-            "name": "Shadow Boxer K",
-            "type": "Black ",
-            "health": 80000,
-            "damage": 4250,
-            "target": "Area",
-            "range": 158,
-            "speed": 22,
-            "id": 43
-        },
-        {
-            "name": "Director Kurosawah",
-            "type": "Black ",
-            "health": 200000,
-            "damage": 18763,
-            "target": "Area",
-            "range": 700,
-            "speed": 2,
-            "id": 44
         }
     ],
     "enemy_types": [
