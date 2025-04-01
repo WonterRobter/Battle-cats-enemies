@@ -1,3 +1,8 @@
+# BRONNEN: https://battlecats.miraheze.org/wiki/Enemy_Dictionary (1/04/2025)
+#          https://chatgpt.com/ (01/04/2025)
+#          https://github.com/TMZ-429/bcc/blob/main/enemies.json (31/03/2025) --> inspiratie
+
+
 from flask import Flask, render_template
 import requests
 
