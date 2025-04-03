@@ -7,7 +7,18 @@
     <h1>Battle Cats Enemies</h1>
     <ul>
         {% for enemy in enemies %}
-            <li><strong>{{ enemy.name }}</strong> - Type: {{ enemy.type }}, HP: {{ enemy.health }}, ATK: {{ enemy.attack }}</li>
+            <li>
+                <strong>{{ enemy.name }}</strong>
+                <ul>
+                    <li>Type: {{ enemy.type }}</li>
+                    <li>HP: {{ enemy.health }}</li>
+                    <li>ATK: {{ enemy.damage }}</li>
+                    <li>Target: {{ enemy.target }}</li>
+                    <li>Range: {{ enemy.range }}</li>
+                    <li>Speed: {{ enemy.speed }}</li>
+                    <li>ID: {{ enemy.id }}</li>
+                </ul>
+            </li>
         {% endfor %}
     </ul>
 </body>
