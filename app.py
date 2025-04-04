@@ -3,7 +3,10 @@
 #          
 #          https://github.com/TMZ-429/bcc/blob/main/enemies.json (31/03/2025) --> inspiratie
 #          https://my-json-server.typicode.com/WonterRobter/battle-cats-enemies
-#          
+#          https://www.w3schools.com/html/html_tables.asp (04/04/2025)
+#               https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro (04/04/2025)
+#               https://www.youtube.com/watch?v=e62D-aayveY&list=PLP9IO4UYNF0VdAajP_5pYG-jG2JRrG72s (04/04/2025)
+
 
 
 from flask import Flask, render_template

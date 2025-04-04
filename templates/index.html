@@ -2,24 +2,50 @@
 <html lang="nl">
 <head>
     <title>Battle Cats Enemies</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color:rgb(255, 0, 0);
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
-    <h1>Battle Cats Enemies</h1>
-    <ul>
-        {% for enemy in enemies %}
-            <li>
-                <strong>{{ enemy.name }}</strong>
-                <ul>
-                    <li>Type: {{ enemy.type }}</li>
-                    <li>Target: {{ enemy.target }}</li>
-                    <li>HP: {{ enemy.health }}</li>
-                    <li>ATK: {{ enemy.damage }}</li>
-                    <li>Range: {{ enemy.range }}</li>
-                    <li>Speed: {{ enemy.speed }}</li>
-
-                </ul>
-            </li>
-        {% endfor %}
-    </ul>
+    <h1 style="text-align: center;">Battle Cats Enemies</h1>
+    <table>
+        <tr>
+            <th>Naam</th>
+            <th>Type</th>
+            <th>Target</th>
+            <th>HP</th>
+            <th>ATK</th>
+            <th>Range</th>
+            <th>Speed</th>
+        </tr>
+        <tbody>
+            {% for enemy in enemies %}
+            <tr>
+                <td><strong>{{ enemy.name }}</strong></td>
+                <td>{{ enemy.type }}</td>
+                <td>{{ enemy.target }}</td>
+                <td>{{ enemy.health }}</td>
+                <td>{{ enemy.damage }}</td>
+                <td>{{ enemy.range }}</td>
+                <td>{{ enemy.speed }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>
